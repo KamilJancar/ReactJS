@@ -1,18 +1,15 @@
-/**
- * Created by kamil on 4/19/17.
- */
-import React from "react";
+import React from 'react';
 
 export const Header = (props) => {
         return(
-            <nav className="navbar navbar-default">
+            <nav className="navbar navbar-light bg-faded">
                 <div className="container">
                     <div className="navbar-header">
                         <ul className="nav navbar-nav">
-                            <li><a href="#">{props.homelink}</a></li>
+                            <li><a href="#"></a>{props.homeLink}</li>
                         </ul>
                     </div>
                 </div>
             </nav>
         );
-};
+    };
